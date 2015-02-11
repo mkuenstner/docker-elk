@@ -2,11 +2,11 @@ Docker-Script to create a simple, interactive Docker container for a complete EL
 
 # Setup
 ```
---------------        --------------        --------------        --------------        --------------
-|  Logstash  |        |            |        | Logstash   |        |  Elastic   |        |            |
-|            | ==== > |    Redis   | ==== > |            | ==== > |            | ==== > |   Kibana   |
-|  Shipper   |        |            |        | Indexer    |        |  Search    |        |            |
---------------        --------------        --------------        --------------        --------------
+--------------     --------------     --------------     --------------     --------------
+|  Logstash  |     |            |     | Logstash   |     |  Elastic   |     |            |
+|            | ==> |    Redis   | ==> |            | ==> |            | ==> |   Kibana   |
+|  Shipper   |     |            |     | Indexer    |     |  Search    |     |            |
+--------------     --------------     --------------     --------------     --------------
 ```
 
 # Building the Container
@@ -32,7 +32,6 @@ Entries in the `syslog` and the `nginx-access` log will be processed by logstash
 ```
 logger FINDME
 ```
-
 Or you can visit the [Bootstrap Sample Page](http://192.168.59.103) to create Nginx Access Logs.
 
 # Screenshots
