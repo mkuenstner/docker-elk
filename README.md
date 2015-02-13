@@ -1,4 +1,4 @@
-Docker-Script to create a simple, interactive Docker container for a complete ELK-Stack with [Elasticsearch](http://www.elasticsearch.com/products/elasticsearch/) / [Logstash](http://www.elasticsearch.com/products/logstash/) / [Kibana 4 - Beta 3](http://www.elasticsearch.com/products/kibana/).
+Docker-Script to create a simple, interactive Docker container for a complete ELK-Stack with [Elasticsearch](http://www.elasticsearch.com/products/elasticsearch/) / [Logstash](http://www.elasticsearch.com/products/logstash/) / [Kibana 4 - RC 1](http://www.elasticsearch.com/products/kibana/).
 
 # Setup
 ```
@@ -38,3 +38,4 @@ Or you can visit the [Bootstrap Sample Page](http://192.168.59.103) to create Ng
 ![Kibana4 - Pie Chart](screens/kibana4_pie.png)
 ![Kibana4 - Bar Chart](screens/kibana4_bars.png)
 ![Kibana4 - Dashboard](screens/kibana4_dashboard.png)
+![Kibana4 - About](screens/kibana4_about.png)
