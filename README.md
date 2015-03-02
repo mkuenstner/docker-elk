@@ -1,4 +1,4 @@
-Docker-Script to create a simple, interactive Docker container for a complete ELK-Stack with [Elasticsearch](http://www.elasticsearch.com/products/elasticsearch/) / [Logstash](http://www.elasticsearch.com/products/logstash/) / [Kibana 4 - RC 1](http://www.elasticsearch.com/products/kibana/).
+Docker-Script to create a simple, interactive Docker container for a complete ELK-Stack with [Elasticsearch](http://www.elasticsearch.com/products/elasticsearch/) / [Logstash](http://www.elasticsearch.com/products/logstash/) / [Kibana 4](http://www.elasticsearch.com/products/kibana/).
 
 # Setup
 ```
