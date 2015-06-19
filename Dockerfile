@@ -7,16 +7,16 @@ RUN git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh && \
 
 # ES
 RUN wget -O - http://packages.elasticsearch.org/GPG-KEY-elasticsearch | apt-key add - && \
-    echo "deb http://packages.elasticsearch.org/elasticsearch/1.4/debian stable main" >> /etc/apt/sources.list && \
-    echo "deb http://packages.elasticsearch.org/logstash/1.4/debian stable main" >> /etc/apt/sources.list
+    echo "deb http://packages.elasticsearch.org/elasticsearch/1.5/debian stable main" >> /etc/apt/sources.list && \
+    echo "deb http://packages.elasticsearch.org/logstash/1.5/debian stable main" >> /etc/apt/sources.list
 
 RUN apt-get update && apt-get -y install elasticsearch openjdk-7-jre logstash redis-server nginx
 
 RUN /usr/share/elasticsearch/bin/plugin -install elasticsearch/marvel/latest
 
 # Kibana
-RUN wget https://download.elastic.co/kibana/kibana/kibana-4.0.2-linux-x64.tar.gz && \
-    tar -xvf kibana-4.0.2-linux-x64.tar.gz
+RUN wget https://download.elastic.co/kibana/kibana/kibana-4.1.0-linux-x64.tar.gz && \
+    tar -xvf kibana-4.1.0-linux-x64.tar.gz
 
 # Populate Nginx
 RUN wget https://github.com/IronSummitMedia/startbootstrap-stylish-portfolio/archive/v1.0.2.zip && \
