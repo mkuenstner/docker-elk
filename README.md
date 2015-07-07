@@ -17,7 +17,7 @@ docker build -t=kibana .
 # Running the Container
 
 ```
-docker run -i -t -p 5601:5601 -p 9200:9200 -p 80:80 kibana /bin/zsh
+docker run -i -t -p 5601:5601 -p 9200:9200 -p 80:80 kibana
 ➜ ./startup.sh
 ```
 ## Services on the Container
