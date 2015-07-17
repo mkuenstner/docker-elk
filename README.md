@@ -18,7 +18,6 @@ docker build -t=kibana .
 
 ```
 docker run -i -t -p 5601:5601 -p 9200:9200 -p 80:80 kibana
-➜ ./startup.sh
 ```
 ## Services on the Container
 After the `startup`-Script, the following services are available:
