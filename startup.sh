@@ -11,4 +11,4 @@ sleep 3
 sleep 3
 echo "giving elasticsearch & redis some time to start ..."
 sleep 3
-/kibana-4.1.1-linux-x64/bin/kibana &
+/kibana/bin/kibana &
